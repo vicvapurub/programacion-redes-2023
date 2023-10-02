@@ -4,10 +4,11 @@ Fecha: 02/10/2023
 Problema: Jugando con listas
 
 '''
-resp=1
+n=0
 
-while resp == 1:
-    #asignatura = input("Nombre de la asignatura: ")
-    #calif = float(input("Calificación de la unidad 1: "))
+while n:
     
-    resp = int(input("Si quieres capturar otra asignatura pressiona \"1\" sino solo presiona enter"))
+    asignatura = input("Nombre de la asignatura: ")
+    calif = float(input("Calificación de la unidad 1: "))
+    
+    resp = int(input("Si ya no quieres capturar otra asignatura pressiona \"-1\""))
