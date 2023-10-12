@@ -14,9 +14,9 @@ while n:
     resp = int(input("Si ya no quieres capturar otra asignatura pressiona \"-1\""))
 '''
 
-var = 0
-while var < 6:
-    var += 1
-    if var % 2 == 0:
-        continue
-    print("#")
+def func_1(a):
+    return a ** a
+def func_2(a):
+    return func_1(a) * func_1(a)
+
+print(func_2(2))
